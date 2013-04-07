@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="green01">#ff4c8313</color>
+
+	<color name="blue">#61b7ff</color>
+	<color name="blue09">#ff0981be</color>
+	<color name="blue10">#ff101b36</color>
+	<color name="blue50">#ffb8dce5</color>
+	<color name="blue60">#ff5bc6e0</color>
+	<color name="blue70">#ff6acbe3</color>
+	<color name="blue75">#09869e</color>
+	<color name="blue80">#6C7B98</color>
+
+	<color name="fb_blue05">#ff536a99</color>
+	<color name="fb_blue06">#ff385182</color>
+	<color name="fb_blue07">#ff46649f</color>
+	<color name="fb_blue08">#ff6986be</color>
+	<color name="fb_blue09">#5BC6E0</color>
+
+	<color name="grey10">#7E8491</color>
+	<color name="grey30">#ff3c451d</color>
+	<color name="grey50">#ff555555</color>
+	<color name="grey60">#ff757575</color>
+	<color name="grey70">#ff101b36</color>
+	<color name="grey80">#ffcccccc</color>
+	<color name="grey85">#ffeeeeee</color>
+	<color name="grey90">#fff5f5f5</color>
+	<color name="grey95">#635952</color>
+	<color name="grey100">#453d36</color>
+	<color name="grey110">#212021</color>
+	<color name="grey120">#ECECEC</color>
+	<color name="grey150">#68605A</color>
+	<color name="grey170">#CCC2BA</color>
+	
+	<color name="darkgray">#ff999999</color>
+	<color name="lightgray">#ccccccff</color>
+
+	<color name="orange50">#fff76500</color>
+	<color name="orange60">#ffffc384</color>
+	<color name="orange70">#ff8901</color>
+
+	<color name="yellow50">#ffffd752</color>
+	<color name="yellow60">#ffef9a00</color>
+
+	<color name="black">#000000</color>
+	<color name="black10">#111111</color>
+
+	<color name="white">#ffffffff</color>
+
+	<color name="red">#ff0919</color>
+
+</resources>

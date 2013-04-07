@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Deals Magazine</string>
+	<string name="enter_login">Please enter your Deals Magazine Account e-mail and password.</string>
+	<string name="get_deal_error">Fail to get the deals, please try again.</string>
+	<string name="hello">Hello World, DealsMagazineActivity!</string>
+	<string name="login_title">My Account</string>
+	<string name="loading">Loading&#8230;</string>
+	<string name="loading_vouchers">Loading Vouchers&#8230;</string>
+	<string name="nosdcard">No storage image.</string>
+	<string name="net_err">You must connect to a Wi-fi or cellular data network to access Deals Magazine.com. If you are connected to the Internet and still continue to see this error screen, please email support@dealsmagazine.com</string>
+	<string name="net_time_out">Network connection time out, Please try again.</string>
+	<string name="offline">Offline Mode</string>
+	<string name="ok">OK</string>
+	<string name="prefs_autodelete_key">PrefsAutoDelete</string>
+	<string name="prefs_assetname_friendslist_key">PrefsAssetNameFriendsList</string>
+	<string name="prefs_assetname_picture_key">PrefsAssetNamePicture</string>
+	<string name="prefs_autosave_key">PrefsAutoSave</string>
+	<string name="prefs_autosync_key">PrefsAutoSync</string>
+	<string name="psd_error">Username or password wrong, please login again.</string>
+	<string name="validating">Validating&#8230;</string>
+	<string name="deals_magazine">Welcome to Deals Magazine</string>
+	<string name="welcome">Deals Magazine</string>	
+	<string name="link_deals_magazine"> You have no vouchers, please visit <a href="http://www.dealsmagazine.com">dealsmagazine.com</a> </string>
+	<string name="imagedesc">image</string>
+	<string name="contactus">Contact Us</string>
+    <string name="eula_title">Deals Magazine EULA</string>
+    <string name="eula_accept">Accept</string>
+    <string name="eula_refuse">Refuse</string>
+</resources>

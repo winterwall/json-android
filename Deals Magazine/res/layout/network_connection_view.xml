@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@drawable/bg_a">
+
+	<RelativeLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_alignParentTop="true"
+		android:padding="5dp">
+
+		<ImageView
+			android:id="@+id/imgLogo"
+			android:src="@drawable/logo_s"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentTop="true"
+			android:layout_centerHorizontal="true"
+			android:padding="10dp" />
+
+		<TextView
+			android:id="@+id/lblMessage1"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_below="@id/imgLogo"
+			android:text="Cannot Connect to the Internet"
+			android:gravity="center_vertical|center_horizontal"
+			android:paddingBottom="40dp"
+			android:textSize="16dp"
+			android:paddingTop="30dp"
+			android:textColor="@color/black" />
+
+		<TextView
+			android:id="@+id/lblMessage2"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_below="@id/lblMessage1"
+			android:text="@string/net_err"
+			android:gravity="center_vertical|center_horizontal"
+			android:paddingBottom="50dp"
+			android:textSize="14dp"
+			android:paddingRight="10dp"
+			android:textColor="@color/black" />
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:layout_below="@id/lblMessage2"
+			android:layout_centerHorizontal="true"
+			android:id="@+id/linearLayout1">
+			<ImageButton
+				android:layout_width="wrap_content"
+				android:id="@+id/btnRetry"
+				android:padding="10dp"
+				android:background="@drawable/networkretry_default"
+				android:layout_height="wrap_content"></ImageButton>
+
+			<ImageButton
+				android:id="@+id/btnQuit"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="10dp"
+				android:background="@drawable/networkback_default" />
+
+		</LinearLayout>
+
+		<ImageButton
+			android:text="Network Setting"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:id="@+id/btn_networkset"
+			android:layout_below="@+id/linearLayout1"
+			android:layout_alignLeft="@+id/linearLayout1"
+			android:layout_alignRight="@+id/linearLayout1"
+			android:background="@drawable/networksettings_default"></ImageButton>
+
+	</RelativeLayout>
+
+</RelativeLayout>

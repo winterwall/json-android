@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="blue_button" parent="@style/dark_shadow">
+		<item name="android:textSize">25.0dip</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:textColor">@color/white</item>
+		<item name="android:background">@drawable/btn_blue</item>
+	</style>
+	
+	<style name="yellow_button" parent="@style/dark_shadow">
+		<item name="android:textSize">25.0dip</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:textColor">@color/black10</item>
+		<item name="android:background">@drawable/btn_yellow</item>
+	</style>
+
+	<style name="grey_button" parent="@style/dark_shadow">
+		<item name="android:textSize">25.0dip</item>
+		<item name="android:textColor">@color/white</item>
+		<item name="android:background">@drawable/btn_grey</item>
+	</style>
+
+	<style name="white_button" parent="@style/dark_shadow">
+		<item name="android:textSize">25.0dip</item>
+		<item name="android:textColor">@color/black10</item>
+		<item name="android:background">@drawable/btn_white</item>
+	</style>
+	
+	<style name="orange_button" parent="@style/dark_shadow">
+		<item name="android:textSize">25.0dip</item>
+		<item name="android:textColor">@color/white</item>
+		<item name="android:background">@drawable/btn_orange</item>
+	</style>
+
+	<style name="dark_shadow">
+		<item name="android:shadowColor">#55555555</item>
+		<item name="android:shadowDy">-1.2</item>
+		<item name="android:shadowRadius">1.2</item>
+	</style>
+	
+	<style name="white_blue_button" parent="@style/dark_shadow">
+		<item name="android:textSize">15.0dip</item>
+		<item name="android:textColor">@color/blue75</item>
+		<item name="android:background">@drawable/btn_white</item>
+	</style>
+
+</resources>

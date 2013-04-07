@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget31"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:weightSum="1" >
+
+    <RelativeLayout
+        android:id="@+id/widget38"
+        android:layout_width="fill_parent"
+        android:layout_height="65px"
+        android:background="@drawable/bg_topbar" >
+
+        <ImageView
+            android:id="@+id/img_whereyoushop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/top_logo_small" />
+
+        <ImageButton
+            android:id="@+id/imgbtn_back2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dip"
+            android:background="@drawable/imgbtn_back" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_a"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/vouchertitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dip"
+                android:shadowColor="@color/white"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:shadowRadius="1.5"
+                android:text="Title"
+                android:textColor="@color/grey110"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vouchercontent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="15dip"
+                android:text="Content"
+                android:textColor="@color/grey110"
+                android:textSize="14sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/vouchercode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="0dip"
+                android:layout_marginTop="5dip"
+                android:background="@color/black"
+                android:paddingTop="0.0dip"
+                android:text="TextView"
+                android:textColor="@color/white"
+                android:textSize="23sp" />
+
+            <FrameLayout
+                android:id="@+id/widget33"
+                android:layout_width="fill_parent"
+                android:layout_height="190dp"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="3dip"
+                android:background="@color/white"
+                android:paddingBottom="5dip" >
+
+                <ImageView
+                    android:id="@+id/img_voucher"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="15dip"
+                    android:paddingBottom="20dip"
+                    android:paddingTop="0.0dip" />
+
+                <ProgressBar
+                    android:id="@+id/voucher_progress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:indeterminate="true"
+                    android:paddingTop="20.0dip" />
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/TestBar1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dip"
+                android:background="@drawable/voucherdetailtextbg"
+                android:shadowColor="@color/white"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:shadowRadius="1.5"
+                android:text="    ABOUT THIS VOUCHER"
+                android:textColor="@color/grey110"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dip"
+                android:layout_marginRight="3dip"
+                android:layout_marginTop="3dip"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="120dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dip"
+                    android:shadowColor="@color/white"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:shadowRadius="1.5"
+                    android:text="Price:"
+                    android:textColor="@color/grey110"
+                    android:textSize="16sp"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:id="@+id/price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="price"
+                    android:textColor="@color/grey110"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dip"
+                android:layout_marginRight="3dip"
+                android:layout_marginTop="3dip"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="120dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dip"
+                    android:shadowColor="@color/white"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:shadowRadius="1.5"
+                    android:text="Value:"
+                    android:textColor="@color/grey110"
+                    android:textSize="16sp"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:id="@+id/value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="value"
+                    android:textColor="@color/grey110"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dip"
+                android:layout_marginRight="3dip"
+                android:layout_marginTop="3dip"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="120dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dip"
+                    android:shadowColor="@color/white"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:shadowRadius="1.5"
+                    android:text="Discount"
+                    android:textColor="@color/grey110"
+                    android:textSize="16sp"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:id="@+id/save"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="save"
+                    android:textColor="@color/grey110"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dip"
+                android:layout_marginRight="3dip"
+                android:layout_marginTop="3dip"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="120dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dip"
+                    android:shadowColor="@color/white"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:shadowRadius="1.5"
+                    android:text="Purchased by:"
+                    android:textColor="@color/grey110"
+                    android:textSize="16sp"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:id="@+id/recipient"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="save"
+                    android:textColor="@color/grey110"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dip"
+                android:layout_marginRight="3dip"
+                android:layout_marginTop="3dip"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="120dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dip"
+                    android:shadowColor="@color/white"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:shadowRadius="1.5"
+                    android:text="Purchased at:"
+                    android:textColor="@color/grey110"
+                    android:textSize="16sp"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:id="@+id/purched_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="save"
+                    android:textColor="@color/grey110"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_redeem_date"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dip"
+                android:layout_marginRight="3dip"
+                android:layout_marginTop="3dip"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="120dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dip"
+                    android:shadowColor="@color/white"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:shadowRadius="1.5"
+                    android:text="Redeem at:"
+                    android:textColor="@color/grey110"
+                    android:textSize="16sp"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:id="@+id/redeem_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="save"
+                    android:textColor="@color/grey110"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/TestBar1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dip"
+                android:background="@drawable/voucherdetailtextbg"
+                android:shadowColor="@color/white"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:shadowRadius="1.5"
+                android:text="    NEED TO KNOW"
+                android:textColor="@color/grey110"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/ll_expire_date"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dip"
+                android:layout_marginRight="3dip"
+                android:layout_marginTop="3dip"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="120dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dip"
+                    android:shadowColor="@color/white"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:shadowRadius="1.5"
+                    android:text="Expires at:"
+                    android:textColor="@color/grey110"
+                    android:textSize="16sp"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:id="@+id/expire_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="save"
+                    android:textColor="@color/grey110"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/fine_print"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10px"
+                android:autoLink="all"
+                android:text="TextView"
+                android:textColor="@color/grey110"
+                android:textSize="16sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/terms"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="0dip"
+                android:text="TextView"
+                android:textColor="@color/grey110"
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/TestBar2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dip"
+                android:background="@drawable/voucherdetailtextbg"
+                android:shadowColor="@color/white"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:shadowRadius="1.5"
+                android:text="    INSTRUCTION"
+                android:textColor="@color/grey110"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/instruction"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5px"
+                android:text="TextView"
+                android:textColor="@color/grey110"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/TestBar3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dip"
+                android:background="@drawable/voucherdetailtextbg"
+                android:shadowColor="@color/white"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:shadowRadius="1.5"
+                android:text="    THE BUSINESS"
+                android:textColor="@color/grey110"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/busniess_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5px"
+                android:text="TextView"
+                android:textColor="@color/grey110"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/TestBar1"
+                android:layout_width="fill_parent"
+                android:layout_height="3dip"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/grey60" />
+
+            <RelativeLayout
+                android:id="@+id/widget41"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/location"
+                    android:layout_width="220dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dip"
+                    android:layout_marginTop="10px"
+                    android:text="TextView"
+                    android:textColor="@color/grey110"
+                    android:textSize="18sp" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/TestBar1"
+                android:layout_width="fill_parent"
+                android:layout_height="3dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="5dp"
+                android:background="@color/grey60" />
+
+            <RelativeLayout
+                android:id="@+id/widget42"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/phone"
+                    android:layout_width="220dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dip"
+                    android:layout_marginTop="5dp"
+                    android:text="TextView"
+                    android:paddingBottom="30dip"
+                    android:textColor="@color/grey110"
+                    android:textSize="18sp" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

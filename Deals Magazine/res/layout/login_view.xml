@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_a"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/ll_title_bar_1"
+        android:layout_width="fill_parent"
+        android:layout_height="30dip"
+        android:background="@drawable/bg_topbar"
+        android:orientation="vertical"
+        android:paddingBottom="1dip"
+        android:paddingTop="1dip" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:maxLines="1"
+            android:text="Login"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_title_bar_1"
+        android:layout_width="fill_parent"
+        android:layout_height="20dip"
+        android:background="@drawable/bg_blue"
+        android:orientation="vertical"
+        android:paddingBottom="1dip"
+        android:paddingTop="1dip" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="5dip"
+            android:maxLines="1"
+            android:shadowColor="#848284"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="1.5"
+            android:text="Deals Magazine Subscribers"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/edittext_username"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:layout_marginTop="5dip"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:hint="Email..."
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/edittext_password"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:layout_marginTop="5dip"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:hint="Password..."
+        android:password="true"
+        android:singleLine="true" />
+
+    <Button
+        android:id="@+id/btn_login"
+        style="@style/yellow_button"
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:layout_marginTop="5dip"
+        android:shadowColor="#999999"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="1.5"
+        android:text="Login"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_forget_password"
+        style="@style/white_button"
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:layout_marginTop="30dip"
+        android:shadowColor="#999999"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="1.5"
+        android:text="Forgot Password?"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/ll_title_bar_1"
+        android:layout_width="320dip"
+        android:layout_height="20dip"
+        android:orientation="vertical"
+        android:paddingBottom="1dip"
+        android:paddingTop="1dip" 
+        android:layout_marginTop="10dip">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="25dip"
+            android:maxLines="1"
+            android:shadowColor="#999999"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="1.5"
+            android:text="Don&apos;t yet have a Deals Magazine Account?"
+            android:textColor="@color/black10"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_signup"
+        style="@style/white_button"
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:layout_marginTop="2dip"
+        android:shadowColor="#999999"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="1.5"
+        android:text="Create Your Free Account"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/loginRememberMeCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dip"
+        android:text=""
+        android:textColor="@color/black" />
+
+</LinearLayout>

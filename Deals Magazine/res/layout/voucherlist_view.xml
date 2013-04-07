@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_voucherlist_view_1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_a"
+    android:orientation="vertical"
+    android:weightSum="1" >
+
+    <RelativeLayout
+        android:id="@+id/rl_voucherlist_view_1"
+        android:layout_width="fill_parent"
+        android:layout_height="65px"
+        android:background="@drawable/bg_topbar" >
+
+        <ImageView
+            android:id="@+id/img_whereyoushop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/top_logo_small" />
+
+        <ImageButton
+            android:id="@+id/imgbtn_back1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dip"
+            android:background="@drawable/imgbtn_back" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_voucherlist_view_2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="1" >
+
+        <TextView
+            android:id="@+id/text_bar"
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="@color/grey95" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_voucherlist_view_3"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1" >
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" >
+
+            <ListView
+                android:id="@android:id/list"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:cacheColorHint="#00000000"
+                android:divider="#53728C"
+                android:dividerHeight="0dip" 
+                android:scrollingCache="false"/>
+
+            <ViewStub
+                android:id="@android:id/empty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout="@layout/voucherlist_empty_view" />
+        </FrameLayout>
+    </LinearLayout>
+
+</LinearLayout>
